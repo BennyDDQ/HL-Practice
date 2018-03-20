@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<selenium>
+  <run>
+    <global.browser value="chrome" />
+    <global.baseUrl value="" />
+    <global.screenshots value="" />
+    <global.mode value="" />
+    <time.start value="2017/06/30 13:00:00" />
+    <time.end value="2017/06/30 13:00:30" />
+    <datamanager.source value="" />    
+  </run>
+  
+  <results>
+    <suite name="TaskTest">
+      <test name="MyFirstTest" result="fail" starttime="2017/06/30 13:00:00" endtime="2017/06/30 13:00:30">
+        <step name="MyFirstTest.Authenticate" result="pass" datetime="2017/06/30 13:00:00">
+          <screenshot name="" base64="" filepath="" />
+        </step>
+        <step name="MyFirstTest.Transaction1" result="pass" datetime="2017/06/30 13:00:02" />
+        <step name="MyFirstTest.Transaction2" result="pass" datetime="2017/06/30 13:00:03" />
+        <step name="MyFirstTest.Transaction3" result="pass" datetime="2017/06/30 13:00:05" />
+      </test>
+    </suite>
+  </results>
+  
+</selenium>

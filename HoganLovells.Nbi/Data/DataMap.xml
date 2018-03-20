@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selenium>
+  <suites>
+    <suite name="" dateused="" />
+  </suites>
+
+  <tests>
+    <test name="" suite="" dateused="" />
+  </tests>
+
+  <fields>
+    <field name="Search" desc="" dateused="">
+      <used suite="" test="" />  
+    </field>
+  </fields>
+  
+  
+</selenium>
